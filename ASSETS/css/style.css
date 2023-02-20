@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 2rem;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+html{scroll-behavior: smooth;
+
+}
+
+header{
+    background-image: url(/ASSETS/image/layered-waves-haikei.png);
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+}
+
+.front{
+    display: flex;
+    justify-content: space-between;
+    /* background: black; */
+}
+.front a>img{
+    /* border: 2px solid red; */
+    height: 4rem;
+    margin-left: 4rem;
+    
+}
+.front ul{
+    width: 60vw;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    padding-top: 1rem;
+    
+
+}
+.front ul li{
+    display: inline;
+ margin-left: 1rem; 
+    /* border: 2px solid red; */
+  margin-bottom: 3rem;
+
+}
+.front ul li a{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+
+.for{
+    display: flex;
+    gap: 14rem;
+}
+.for .image{
+    margin-left: .5rem;
+    width: 40vw;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.for .image h1{
+    text-align: center;
+}
+.for .image p{
+    text-align: center;
+}
+.for .image button{
+    /* margin-left: 3rem; */
+    width: 10vw;
+}
+.for img{
+    margin-top: 2rem;
+    height: 60vh;
+    margin-left: 6rem;
+}
+
+.feat{
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+
+#high .quality{
+    display: flex;
+    justify-content: space-evenly;
+}
+#high{
+    height: 70vh;
+    margin-top: 5rem;
+}
+
+#high .container img{
+    height: 10vh;
+    margin-left: 2rem;
+    
+}
+  #high .container h2{
+    text-align: center;
+    margin-right: 3rem;
+}
+
+#high .container p{
+    text-align: center; 
+    margin-right: 3rem;
+} 
+
+#high .container{
+    /* border: 2px solid red; */
+    padding: 4rem; 
+    align-content: center;
+}
+
+#products{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(236, 235, 235);
+    height: 70vh;
+}
+
+#products .clock{
+    margin-top: 2rem;
+    height: 60vh;
+    width: 30vw;
+    /* border: 2px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#products .clock h1{
+    text-align: center;
+}
+#products .clock p{
+    text-align: center;
+}
+#products .clock ul{
+    padding-left: 1rem;
+}
+
+#products img{
+    height: 60vh;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:520px){
+
+
+    header{
+    background-image: url(/ASSETS/image/layered-waves-haikei.png);
+    background-size: cover;
+    background-position: center center;
+    height: 150vh;
+}
+
+
+    .front ul li{
+        display: block;
+      
+        /* border: 2px solid red; */
+    
+    
+    }
+
+    .for .image h1{
+    text-align: center;
+
+}
+.for .image p{
+    text-align: center;
+}
+.for .image button{
+    /* margin-left: 3rem; */
+    width: 10vw;
+}
+
+#high{
+    height: 160vh;
+    margin-top: 5rem;
+}
+
+#high .quality{
+    display: block;
+   
+}
+#products{
+    display: block;
+    
+    background: rgb(236, 235, 235);
+    height: 70vh;
+}
+
+#products .clock{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    height: 80vh;
+    width: 50vw;
+    /* border: 2px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#prod .feat{
+    text-align: center;
+}
+#products img{
+    height: 40vh;
+    margin-top: 2rem;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
